@@ -3,10 +3,10 @@
 A modern notes management app with authentication and protected routes.
 
 
-## 🎥 Demo V1
+## 🎥 Demo 
     ___ 
 
-## 📸 Screenshots V2
+## 📸 Screenshots 
 ![Notes SaaS](https://raw.githubusercontent.com/nee-tin/assets/main/notes-saas.png)
 ![Task Board](https://raw.githubusercontent.com/nee-tin/assets/main/task-board.png)
 
