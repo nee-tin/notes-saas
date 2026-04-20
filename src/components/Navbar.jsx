@@ -57,11 +57,18 @@ function Navbar() {
             </button>
           </div>
         ) : (
-         <button
+           <button
   onClick={handleDemoLogin}
   className="
-       bg-indigo-700 text-white px-4 py-2 mr-8 rounded-lg shadow-sm hover:shadow-md hover:-translate-y-[1px]transition-all duration-200">
-  Login <b className="text-sm sm:text-md">(Demo)</b>
+    bg-indigo-700 text-white px-4 py-2 mr-8 rounded-lg
+    shadow-sm hover:shadow-md
+    transition-all duration-200 ease-in-out
+    hover:-translate-y-[1px]
+    active:translate-y-[1px]
+    active:shadow-sm
+  "
+>
+  Login <span className="opacity-80">(Demo)</span>
 </button>
         )}
       </div>
