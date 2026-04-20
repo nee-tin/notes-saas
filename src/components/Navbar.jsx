@@ -51,7 +51,7 @@ function Navbar() {
             <span className="text-sm sm:text-lg">{user.email}</span>
             <button
               onClick={handleLogout}
-              className="bg-red-800 text-sm sm:text-lg px-3 sm:px-4 py-2 rounded-md border border-red-800 hover:bg-red-700 transition"
+              className="bg-red-800 text-white text-sm sm:text-lg px-3 sm:px-4 py-2 rounded-md border border-red-800 hover:bg-red-700 transition"
             >
               Logout
             </button>
