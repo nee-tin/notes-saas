@@ -1,8 +1,8 @@
 
 function Features() {
   return (
-<section className="py-24 bg-gray-50">      
-<div className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 text-center">        
+<section className="py-0 bg-gray-100">      
+<div className="bg-sky-100 p-6 rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 text-center">        
         <h2 className="text-2xl sm:text-3xl font-bold mb-8 md:mb-10 text-center">
           Key Features
         </h2>
@@ -12,7 +12,7 @@ function Features() {
           <div className="bg-white p-5 md:p-6 rounded-lg shadow text-center">
            <h3 className="text-lg font-semibold mb-2 text-gray-900">              Instant Notes
             </h3>
-               <p className="text-gray-500 text-sm">              Add your thoughts quickly and see them appear immediately.
+               <p className="text-gray-600 text-sm">              Add your thoughts quickly and see them appear immediately.
             </p>
           </div>
 

@@ -39,9 +39,12 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-gradient-to-r from-gray-600 via-pink-400 to-gray-600 text-white px-4 sm:px-6 py-2">
-      <div className="flex justify-between items-center w-full max-w-full">
-        <h2 className="text-xl sm:text-2xl font-bold">Notes SaaS</h2>
+<nav className="bg-white/80 backdrop-blur-md border-b border-gray-200 px-6 py-3">      
+
+<div className="flex justify-between items-center w-full max-w-full">
+        <h2 className="text-2xl font-semibold text-gray-900">
+            Notes<span className="text-indigo-600">SaaS</span>
+       </h2>
 
         {user ? (
           <div className="flex items-center gap-4">
@@ -57,22 +60,7 @@ function Navbar() {
          <button
   onClick={handleDemoLogin}
   className="
-    bg-blue-600
-    text-sm sm:text-lg
-    px-3 sm:px-4 py-2
-    rounded-md
-    border border-blue-500
-
-    shadow-sm
-    transition-all duration-75
-
-    hover:bg-blue-700
-
-    active:translate-y-[1px]
-    active:shadow-sm
-    active:bg-blue-700
-  "
->
+       bg-indigo-700 text-white px-4 py-2 mr-8 rounded-lg shadow-sm hover:shadow-md hover:-translate-y-[1px]transition-all duration-200">
   Login <b className="text-sm sm:text-md">(Demo)</b>
 </button>
         )}

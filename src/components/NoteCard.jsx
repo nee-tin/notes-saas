@@ -3,7 +3,7 @@
 
 function NoteCard({ note, onDelete }) {
   return (
-    <div className="bg-white p-4 rounded-xl shadow-sm mb-4 border hover:shadow-md transition flex justify-between items-start">
+    <div className="bg-blue-400 p-4 rounded-xl shadow-sm mb-4 border hover:shadow-md transition flex justify-between items-start">
       <div>
         <p className="p-4 bg-white texr-gray-800 rounded-lg shadow hover:shadow-lg transition">{note.text}</p>
         <span className="text-xs bg-blue-100 text-blue-600 px-2 py-0.25 rounded m-2">
