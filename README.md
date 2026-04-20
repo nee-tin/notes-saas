@@ -9,7 +9,7 @@ A modern notes management app with authentication and protected routes.
 ## 📸 Screenshots 
 ![Notes SaaS](https://raw.githubusercontent.com/nee-tin/assets/main/notes-saas.png)
 ![Task Board](https://raw.githubusercontent.com/nee-tin/assets/main/task-board.png)
-
+![Footer](https://raw.githubusercontent.com/nee-tin/assets/main/footer.png)
 
 ## 🚀 Features
 - 🔐 Firebase Authentication
