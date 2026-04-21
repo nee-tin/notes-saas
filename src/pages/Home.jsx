@@ -7,14 +7,18 @@ import Footer from "../components/Footer"
 
 function Home() {
   return (
-    <div>
-     
-      <Hero />
-     <Features />
-     <NotesApp />
-    <Footer />
+    <div className="flex flex-col min-h-screen">
+      
+      <main className="flex-1">
+        <Hero />
+        <Features />
+        <NotesApp />
+      </main>
+
+      <Footer />
+
     </div>
   )
 }
 
-export default Home; 
+export default Home;
