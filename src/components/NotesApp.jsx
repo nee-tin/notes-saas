@@ -111,7 +111,7 @@ function NotesApp() {
       {/* Notes list or empty message */}
       <div>
         {filteredNotes.length === 0 ? (
-          <p className="text-center text-gray-500 mb-20">
+          <p className="text-center text-gray-500 mb-6">
             No notes found. Try adding a new one or change the filter/search...     
           </p>
         ) : (
