@@ -50,8 +50,9 @@ function NotesApp() {
       return matchesTag && matchesSearch
      })
 
-  return (
-    <div className="w-full bg-sky-100 mx-auto px-6 py-14">
+ 
+   return (
+  <div id="notes" className="w-full bg-sky-100 mx-auto px-6 py-14">
 
     <div className="max-w-6xl mx-auto px-6">
      <div className="mb-8 text-center">
