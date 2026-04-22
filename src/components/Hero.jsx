@@ -11,15 +11,18 @@
   <span className="text-indigo-600">without losing focus</span>
 </h1>
 
-        <p className="mt-6 text-lg text-gray-600 max-w-2xl mx-auto">
-          Quickly write, organize, and access your notes anytime with a clean and distraction-free interface.
-      </p>
-        <div className="flex justify-center">
-          <button
-           className="mt-8 bg-indigo-600 text-white px-6 py-3 rounded-xl font-semibold shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-             Start Taking Notes
-        </button>
-        </div>
+       <p className="mt-6 text-lg text-gray-600 max-w-2xl mx-auto">
+  Quickly write, organize, and access your notes anytime with a clean and distraction-free interface.
+</p>
+
+<div className="flex justify-center mt-6">
+  <a
+    href="#notes"
+    className="inline-block bg-indigo-600 text-white px-6 py-3 rounded-xl font-semibold shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
+  >
+    Start Taking Notes
+  </a>
+</div>
         
       </div>
     </section>
