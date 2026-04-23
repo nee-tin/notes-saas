@@ -25,7 +25,7 @@ function App() {
     <div className="min-h-screen w-screen bg-gray-100 flex flex-col">
       <Navbar />
 
-      <main className="flex-grow">
+      <main>
         {user ? <NotesApp /> : <Home />}
       </main>
 
