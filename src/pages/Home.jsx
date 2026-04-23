@@ -15,8 +15,6 @@ function Home() {
         <NotesApp />
       </main>
 
-      <Footer />
-
     </div>
   )
 }
